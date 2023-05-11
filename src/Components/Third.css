@@ -1,0 +1,53 @@
+.cont{
+    background-image: url(https://edu.sqi.ng/wp-content/uploads/2020/08/DSC_9054-scaled.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+.lay{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(26, 0, 82, 0.733);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.lays{
+    width: 50%;
+    height: 500px; 
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* background-color: rgba(26, 0, 82); */
+    background-image: linear-gradient(to right ,rgb(26, 0 , 82));
+}
+.glancon{
+    width: 500px;
+    height: 400px;
+}
+.glance{
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+}
+.offer{
+    font-size:15px ;
+    color: white;
+    margin-top: 10px;
+    word-spacing: 5px;
+}
+.more{
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.nation {
+    color: rgba(46, 160, 239);
+    word-spacing: 10px;
+}

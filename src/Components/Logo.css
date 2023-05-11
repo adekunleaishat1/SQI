@@ -1,0 +1,44 @@
+.contlogo{
+    width: 100%;
+    height: 650px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contlo{
+    width: 75%;
+    height: 450px;
+}
+.conlog{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.alumni{
+    width: 550px;    
+    height: 50px;
+}
+.alumn{
+    font-size: 30px;
+    font-weight: 700;
+    color:rgb(51, 51, 51);
+}
+.congoogle{
+    width:200px ;
+    height: 50px;
+}
+.googleim{
+    width: 150px;
+}
+.logodiv{
+    width:80%;
+    height:400px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
