@@ -51,3 +51,90 @@
     color: rgba(46, 160, 239);
     word-spacing: 10px;
 }
+.tourcont{
+    background-image: url(https://edu.sqi.ng/wp-content/uploads/2020/08/DSC_9054-scaled.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+}
+.tourdiv{
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(to right ,rgba(6, 11, 77, 0.767) , rgb(0, 4, 66));
+    /* background-color: rgba(26, 0, 82, 0.733); */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.tours{
+    width: 55%;
+    height: 400px; 
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* bacckground-image: linear-gradient(to right ,rgba(0, 4, 66, 0.884) , rgb(0, 4, 66)); */
+}
+.tourcon{
+    width: 650px;
+    height: 200px; 
+}
+.tourcon h1{
+    font-size: 50px;
+    color: white;
+}
+.tourcon p{
+    font-size: 17px;
+    word-spacing: 2px;
+    margin-top: 20px;
+    color: white;
+}
+.readydiv{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(0, 11, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.readycon{
+    width: 70%;
+    height: 300px;
+}
+.join{
+    width: 150px;
+    height: 60px;
+    background-color: rgb(0, 32, 138);
+    border-radius: 30px;
+    font-size: 16px;
+    color: white;
+    border: 1px solid rgb(0, 32, 138);
+}
+.join:hover.join i{
+   display: inline;
+}
+.readycon p{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+.readycon h1{
+    font-size: 50px;
+    color: white;
+    font-weight: 700; 
+}
+.readycon a{
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.join i{
+    color: white;
+    display: none;
+}
+.redcon{
+    width: 530px;
+}

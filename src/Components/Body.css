@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .con{
     width: 100%;
     height: 750px;
@@ -47,4 +52,265 @@
     border: 1px solid rgb(0, 32, 138);
     color: white;
     margin-top: 10px;
+}
+.contai{
+    background-image: linear-gradient(to bottom , rgb(254, 254, 254), rgb(228, 228, 230));
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contai1{
+    width: 70%;
+    height:800px ;
+}
+.why{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: -10px;
+    color: rgb(51, 51, 51);
+}
+.contai2{
+    width: 100%;
+    height: 800px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: space-between;
+    align-items: start;
+}
+.physical{
+    width: 30%;
+    max-width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.icodiv{
+   width: 15%;
+   height: 55px; 
+   background-color: white;
+   border-radius: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.icodiv i {
+   font-size: 30px;
+   color: rgb(0, 32, 138);
+}
+.studydiv{
+    width: 73%;
+    max-width: 100%;
+    height: fit-content;  
+}
+.project{
+    font: 500;
+    font-size:22px;
+    font-weight: 600;
+}
+.course{
+    font-size:15px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: rgb(102, 102, 102);
+}
+.contai4{
+    width: 100%;
+    height: 500px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contai3{
+    width: 70%;
+    height: 400px;
+    background-color: white;
+}
+.contai3 h1{
+    font-size: 50px;
+    font-weight: 700;
+
+}
+.contai3 p{
+    font-size: 16px;
+    font-weight: 600;  
+    color: rgb(71, 71, 71);
+}
+.contai5{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.innercontai{
+    width: 40%;
+    height: 300px;
+    display: flex;
+    justify-content:space-between;
+    align-items: start;
+    padding: 10px;
+}
+.inercontai{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content:space-between;
+    align-items: start;
+    padding: 10px; 
+}
+.sodiv{
+    width: 12%;
+    height: 50px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 7px;
+}
+.sodiv img{
+   width: 100%;
+   height: 50px;
+   border-radius: 100%;
+}
+.stardiv{
+    width: 65%;
+    height: 250px;
+}
+.review{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(31, 103, 231);
+    border: 1px solid rgb(31, 103, 231);
+    color: white;
+    border-radius: 30px;
+}
+.review i{
+    color: white;
+}
+.fa-google{
+    color: rgb(251, 142, 40);
+}
+.sqi{
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+.firscontain{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inercontain{
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.college{
+    width: 20%;
+    height: 450px;
+}
+.colle{
+    font-size:20px ;
+    color: rgb(0, 32, 138);
+    font-weight: 700;
+}
+.coll{
+    font-size:18px;
+    font-weight: 700;
+    color: rgb(51, 51, 51); 
+}
+.leadw{
+    padding-top: 10px;
+    font-size:18px;
+    font-weight: 600;
+    color: rgb(51, 51, 51);
+}
+.leadsec{
+    font-size:16px;
+    font-weight: 600;
+    color: rgb(102, 102, 102);
+}
+.college a{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(86, 169, 242);
+    text-decoration: none;
+}
+.collee{
+    width: 70%;
+    height: 450px; 
+    margin-top: 25px;
+}
+.icocont{
+    width: 70%;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icocont i{
+    color: rgb(102, 102, 102);
+}
+.lastcontain{
+    width: 100%;
+    height: 40px;
+    background-color:rgb(5, 0, 68);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.inerlast{
+    width: 70%;
+    height: 22px;
+}
+.inerlast p{
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    text-align: start;
+}
+.posidiv{
+    width: 3%;
+    height: 120px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 40%;
+    right: 0;
+}
+.facebook{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(49, 74, 131);
+    border-radius: 0px 5px 0px 0px;
+    color: white;
+    text-align: center;
+    border: none;
+}
+.twitter{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(0, 146, 204);
+    color: white;
+    text-align: center;
+    border: none;
+}
+.linkedin{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(15, 105, 155);
+    border-radius: 0px 0px 5px 0px;
+    color: white;
+    text-align: center;
+    border: none; 
 }
